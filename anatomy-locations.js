@@ -118,14 +118,15 @@ function renderPainOverlay(plate,width,height) {
  if(!loc||loc.kind==='reference') return '';
  const color=loc.kind==='deep'?'#a15a26':'#c24d36';
  const shape=loc.outline?`<path d="${loc.outline}" fill="${color}" fill-opacity=".26" stroke="${color}" stroke-width="5" stroke-dasharray="10 7"/>`:loc.points.map(([x,y,rx,ry])=>`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="${color}" fill-opacity=".22" stroke="${color}" stroke-width="5" stroke-dasharray="${loc.kind==='deep'?'10 7':'none'}"/>`).join('');
- return `<g class="condition-location-markers" aria-label="${loc.kind==='deep'?'关注结构':'常见疼痛区域'}：${loc.label}">${shape}<g transform="translate(${loc.points[0][0]},${loc.points[0][1]})"><circle r="17" fill="${color}" stroke="white" stroke-width="3"/><text text-anchor="middle" dominant-baseline="central" fill="white" font-size="23" font-family="sans-serif">1</text></g></g>`;
+ return `<g class="condition-location-markers" aria-label="${loc.kind==='deep'?'关注结构':'常见疼痛区域'}：${loc.label}">${plate.tissue?.includes('脂肪垫')?'<text x="600" y="860" font-size="24" fill="#914b32">皮下层投影</text>':''}${shape}<g transform="translate(${loc.points[0][0]},${loc.points[0][1]})"><circle r="17" fill="${color}" stroke="white" stroke-width="3"/><text text-anchor="middle" dominant-baseline="central" fill="white" font-size="23" font-family="sans-serif">1</text></g></g>`;
 }
 
 function renderFootCallout(plate) {
  const name=plate.conditionName;
  if(plate.asset==='foot-plantar') {
   if(name==='籽骨炎') return `<g font-family="Microsoft YaHei,sans-serif"><path d="M601 337 L266 491" stroke="#c24d36" stroke-width="3" fill="none"/><rect x="35" y="430" width="245" height="270" rx="18" fill="#fff9f2" stroke="#e6cbb3" stroke-width="2"/><text x="58" y="473" font-size="25" fill="#835f42">局部放大 · 足底</text><path d="M126 493 L126 540 Q108 582 152 588 Q195 582 178 540 L178 493" fill="#e4d7bd" stroke="#a69374" stroke-width="3"/><ellipse cx="134" cy="576" rx="16" ry="24" fill="#f1b5a0" stroke="#c24d36" stroke-width="3"/><ellipse cx="174" cy="576" rx="16" ry="24" fill="#f1b5a0" stroke="#c24d36" stroke-width="3"/><text x="58" y="640" font-size="24" fill="#914b32">两枚籽骨</text><text x="58" y="674" font-size="21" fill="#7f776b">位于第一跖骨头下方</text></g>`;
-  const caption=name==='跖痛症（前脚掌疼痛）'?['跖骨头下方','前掌负重区']:name==='莫顿神经瘤'?['第三、第四','跖骨头之间']:name==='拇趾跖趾关节扭伤'?['第一跖趾关节','足底侧支持组织']:['足跟底部','及足弓区域'];
+  const extraCaption={'足跟脂肪垫综合征（足底脂肪垫痛）':['足跟中央','皮下缓冲脂肪垫'],'前脚掌脂肪垫萎缩相关疼痛':['前掌皮下','缓冲脂肪垫'],'跖板损伤（第2至5趾）':['第二趾根部','足底侧跖板区域'],'跟骨应力性骨折':['跟骨投影','深层骨性结构']};
+  const caption=extraCaption[name] || (name==='跖痛症（前脚掌疼痛）'?['跖骨头下方','前掌负重区']:name==='莫顿神经瘤'?['第三、第四','跖骨头之间']:name==='拇趾跖趾关节扭伤'?['第一跖趾关节','足底侧支持组织']:[ '足跟底部','及足弓区域']);
   const [x,y]=plate.location.points[0];
   return `<g fill="#914b32" font-family="Microsoft YaHei,sans-serif" font-size="28"><path d="M${x} ${y} L260 380 L65 380" fill="none" stroke="#c24d36" stroke-width="3"/><text x="65" y="326">${caption[0]}</text><text x="65" y="363">${caption[1]}</text></g>`;
  }

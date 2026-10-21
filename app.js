@@ -24,8 +24,11 @@ function sourceLabel(url) {
  if (url.includes('footcaremd.org')) return 'AOFAS · FootCareMD';
  if (url.includes('hss.edu')) return 'HSS · 专科医院';
  if (url.includes('assh.') || url.includes('assh.org')) return 'ASSH · 美国手外科学会';
- if (url.includes('pmc.ncbi.nlm.nih.gov')) return '运动腕损伤医学综述 · PMC';
- return 'AAOS · OrthoInfo';
+ if (url.includes('clevelandclinic.org')) return 'Cleveland Clinic';
+ if (url.includes('medlineplus.gov')) return 'MedlinePlus';
+ if (url.includes('pmc.ncbi.nlm.nih.gov')) return '医学文献 · PMC';
+ if (url.includes('ncbi.nlm.nih.gov/books')) return 'NCBI Bookshelf · 医学参考';
+ return url.includes('orthoinfo.org') ? 'AAOS · OrthoInfo' : '医学参考资料';
 }
 let selected='knee',condition=0,view='front',query='';
 const $=id=>document.getElementById(id);
@@ -46,7 +49,7 @@ function render(){
  $('conditions').innerHTML=matches.map(({item:x,index:i})=>`<button data-condition="${i}" aria-pressed="${condition===i}">${x[0]}${x[10]?`<small>${x[10]}</small>`:''}</button>`).join('');
  if(!d){$('detail').innerHTML='<div class="empty-result"><h3>未找到相关条目</h3><p>可尝试更简短的关键词，或清除查找查看全部。无匹配结果不能排除损伤。</p></div>';return;}
  // Use a condition-specific anatomical plate rather than magnifying the full-body silhouette.
- $('detail').innerHTML=`<div class="detail-top"><div><h3>${d[0]}</h3><div class="english">${d[1]}</div></div><span class="kind">科普条目 · 非诊断</span></div>${renderAnatomy(d)}<div class="description-row"><span class="row-icon">≈</span><div><h4>可能有怎样的感觉</h4><p>${d[3]}</p></div></div><div class="description-row"><span class="row-icon">↗</span><div><h4>常见诱因</h4><p>${d[4]}</p><div class="tags">${d[5].map(t=>`<span>${t}</span>`).join('')}</div></div></div>${d[9]?`<aside class="condition-care"><strong>就医提示</strong><p>${d[9]}</p></aside>`:''}<a class="source" href="${source[d[6]]}" target="_blank" rel="noopener">参考资料：${sourceLabel(source[d[6]])} ↗</a>${renderRehab(d)}`;
+ $('detail').innerHTML=`<div class="detail-top"><div><h3>${d[0]}</h3><div class="english">${d[1]}</div></div><span class="kind">科普条目 · 非诊断</span></div>${renderAnatomy(d)}<div class="description-row"><span class="row-icon">≈</span><div><h4>可能有怎样的感觉</h4><p>${d[3]}</p></div></div><div class="description-row"><span class="row-icon">↗</span><div><h4>常见诱因</h4><p>${d[4]}</p><div class="tags">${d[5].map(t=>`<span>${t}</span>`).join('')}</div></div></div>${d[9]?`<aside class="condition-care"><strong>就医提示</strong><p>${d[9]}</p></aside>`:''}<a class="source" href="${source[d[6]]}" target="_blank" rel="noopener">参考资料：${sourceLabel(source[d[6]])} ↗</a>${renderConditionComparison(d)}${renderRehab(d)}`;
 }
 document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.region)setRegion(b.dataset.region,true);if(b.dataset.condition!==undefined){condition=Number(b.dataset.condition);render();}if(b.dataset.view){view=b.dataset.view;if(view==='front'&&selected==='back'){selected='knee';condition=0;query='';}render();}});
 $('conditions').insertAdjacentHTML('beforebegin','<div class="condition-search"><label for="condition-search">在当前部位查找</label><div><input id="condition-search" type="search" placeholder="如：跑步、投掷、外侧、韧带" autocomplete="off" aria-describedby="search-status"><button type="button" id="clear-search">清除</button></div><p id="search-status" role="status"></p></div>');
@@ -55,3 +58,15 @@ $('clear-search').addEventListener('click',()=>{query='';render();$('condition-s
 $('detail').addEventListener('click',e=>{if(e.target.closest('[data-open-anatomy]'))openAnatomy(regions.find(r=>r.id===selected).items[condition]);});
 render();
 if(document.modelContext?.registerTool){try{Promise.resolve(document.modelContext.registerTool({name:'select_body_region',title:'选择疼痛部位',description:'切换页面显示的身体部位和常见损伤科普，不提供诊断。',inputSchema:{type:'object',properties:{region:{type:'string',enum:regions.map(r=>r.id)}},required:['region'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){if(!input||typeof input.region!=='string'||Object.keys(input).some(k=>k!=='region'))throw new Error('需要有效的 region 参数');setRegion(input.region);return{region:selected,conditions:regions.find(r=>r.id===selected).items.map(d=>d[0]),notice:'仅供科普，不能确诊'};}})).catch(()=>{});}catch{}}
+
+// 对照入口可以跨部位跳转，同时清除上一部位的筛选词。
+$('detail').addEventListener('click',e=>{
+ const button=e.target.closest('[data-related-condition]');
+ if(!button)return;
+ const name=button.dataset.relatedCondition;
+ const region=regions.find(r=>r.items.some(item=>item[0]===name));
+ if(!region)return;
+ selected=region.id;condition=region.items.findIndex(item=>item[0]===name);query='';
+ if(selected==='back')view='back';
+ render();$('detail').querySelector('h3').setAttribute('tabindex','-1');$('detail').querySelector('h3').focus();
+});

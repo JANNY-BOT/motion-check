@@ -152,7 +152,7 @@ function getAnatomy(item) {
  const entry=conditionAnatomy[item[0]];
  if (!entry) throw new Error('缺少解剖图匹配：'+item[0]);
  const location=getAnatomyLocation(item[0]);
- if(location.asset==='foot-plantar') return {...entry,conditionName:item[0],asset:'foot-plantar',title:'足底骨骼与软组织定位',view:'右足足底 · 透视教学示意',parts:['跖骨头负重区','第一跖趾关节','第一跖骨头下方籽骨','足底筋膜与足跟'],focus:anatomyChineseText(entry.focus),note:'足底透视示意，结构未按比例绘制；着色范围用于对照位置。',location,credit:{custom:true,artist:'动察 · 原创足底教学示意',license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',page:'https://www.orthoinfo.org/diseases--conditions/sesamoiditis/'}};
+ if(location.asset==='foot-plantar') return {...entry,conditionName:item[0],asset:'foot-plantar',title:'足底骨骼与软组织定位',view:'右足足底 · 透视教学示意',parts:['跖骨头负重区','第一跖趾关节','第一跖骨头下方籽骨','足底筋膜与足跟'],focus:anatomyChineseText(entry.focus),note:'足底透视示意，结构未按比例绘制；着色范围用于对照位置。',location,credit:{custom:true,artist:'动察 · 原创足底教学示意',license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',page:entry.referenceUrl||'https://www.orthoinfo.org/diseases--conditions/sesamoiditis/'}};
  const asset=location.asset;
  const raw=anatomyCredits[asset];
  const credit={...raw,licenseUrl:raw.licenseUrl||'https://creativecommons.org/publicdomain/mark/1.0/'};
