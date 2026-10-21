@@ -136,6 +136,6 @@ function renderFootCallout(plate) {
 
 function renderLocationKey(plate) {
  const loc=plate.location;
- const title=loc.kind==='reference'?'此图仅供结构参照，不能指定单一痛点':loc.kind==='deep'?'① 虚线：关注结构所在区域':'① 实线：常见疼痛区域';
+ const title=plate.focused?.variable?'范围示意：受累位置随受伤情况变化':plate.focused?.multiple?'编号：不同可能受累位置':loc.kind==='reference'?'此图仅供结构参照，不能指定单一痛点':loc.kind==='deep'?'① 虚线：关注结构所在区域':'① 实线：常见疼痛区域';
  return `<div class="location-key-panel location-key-${loc.kind}"><strong>${title}</strong><p>${loc.label}</p>${loc.detail?`<p class="location-detail">${loc.detail}</p>`:''}<small>区域定位示意，不代表个人病灶、损伤程度或确诊依据。</small></div>`;
 }

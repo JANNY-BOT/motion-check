@@ -79,6 +79,7 @@ function anatomyChineseText(value) {
  return value.replace(/\s*[（(](?:ACL|PCL)[）)]/g,'').replace(/\bTFCC\b/g,'三角纤维软骨复合体');
 }
 function renderAnatomyGraphic(plate, large=false) {
+ if(plate.focused) return renderFocusedAnatomy(plate,large);
  if(plate.asset==='foot-plantar') return `<svg class="anatomy-graphic${large?' anatomy-graphic-large':''}" viewBox="0 0 960 960" role="img" aria-label="${plate.title}：${plate.location.label}"><rect width="960" height="960" fill="white"/>${plantarAnatomySvg()}${renderPainOverlay(plate,960,960)}${renderFootCallout(plate)}</svg>`;
  const data=anatomyZhLabels[plate.asset];
  const [width,height]=data.size;
