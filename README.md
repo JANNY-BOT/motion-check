@@ -25,7 +25,7 @@
 
 图稿及条目匹配位于 `dist/anatomy.js`，样式位于 `dist/anatomy.css`。运行 `node check-anatomy.cjs` 检查 113 个条目的图稿覆盖、资源存在和关键解剖区域匹配。`fetch-anatomy.py` 用于重新获取已选开放许可图稿及元数据，优先复用本地缓存，并遵循维基媒体的标准预览图尺寸。
 
-2026-10-21 新增的 15 个条目统一在 `dist/overlooked-conditions.js` 中登记来源、定位、对照与康复路径；运行 `node check-expansion.cjs` 校验接入。详见 [更新说明](UPDATE-2026-10-21.md)。上述路径与命令用于完整本地源码；GitHub Pages 上传包将 dist 内容平铺在根目录，不含本地检查脚本。
+2026-10-21 新增的 15 个条目统一在 `dist/overlooked-conditions.js` 中登记来源、定位、对照与康复路径；运行 `node check-expansion.cjs` 校验接入。上述路径与命令用于完整本地源码；GitHub Pages 上传包将 dist 内容平铺在根目录，不含本地检查脚本。
 
 条目级标记、视图限制及原创足底示意位于 `dist/anatomy-locations.js`。标记坐标绑定具体图稿，不按身体部位自动复用。足底示意为非比例教学图；新增标记与医学插图尚需专业审核。图稿检查同时验证标记范围、底图一致性，以及籽骨炎、跖痛症、第五跖骨骨折使用不同定位。
 
