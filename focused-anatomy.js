@@ -126,6 +126,13 @@ focusDiagram(['慢性运动性骨筋膜室综合征','小腿肌肉挫伤'],'calf
 focusDiagram(['踝周软组织挫伤'],'ankleOuter',[[442,442,90,75]],'踝周软组织 · 受撞击范围因人而异','展示外侧区域供定位；内侧、前方或后方也可能受撞击，红色不是一条指定受伤韧带。',{variable:true});
 
 const originalGetAnatomy=getAnatomy;
+focusedTemplates.medialDistal={title:'大腿远端与膝内侧定位',view:'右腿前内侧区域示意 · 非比例',parts:['大腿内侧区域','股骨内侧远端','髌骨','胫骨'],orientation:['外侧','内侧'],draw:()=>diagramPath('M366 125 L550 125 Q574 279 554 380 Q578 434 550 485 L533 670 L385 670 L369 485 Q343 427 370 377Z','skin')+diagramPath('M414 145 L490 145 L497 360 Q548 392 518 436 L397 436 Q369 390 410 360Z')+diagramEllipse(450,403,35,43)+diagramPath('M396 470 L520 470 L504 650 L409 650Z')+diagramLabel('髌骨 · 前方',25,418,450,403)+diagramLabel('股骨内侧远端',665,445,517,385)+diagramLabel('大腿内侧下段',665,230,535,277)};
+focusedTemplates.medialBack={...focusedTemplates.kneeBack,title:'膝后内侧肌腱定位',parts:['膝后内侧','远端肌腱区域','腓肠肌内侧头'],draw:()=>focusedTemplates.kneeBack.draw().replace(diagramEllipse(431,378,36,48,'cyst'),'').replace(diagramLabel('腘窝囊肿示例',35,370,431,378),'')};
+focusDiagram(['大收肌远端肌腱 / 附着点损伤（少见）'],'medialDistal',[[523,365,25,30]],'股骨内侧远端 · 内收肌结节邻近区','标记为内侧骨性附着区域投影；不绘制个人肌腱撕裂或骨折形态。',{deep:true});
+focusDiagram(['隐神经卡压相关疼痛'],'medialDistal',[[535,280,25,73]],'大腿内侧下段 · 收肌管邻近区域','区域投影示意，不是精确神经走行；膝及小腿的感觉异常可超出标记范围。',{deep:true});
+focusDiagram(['半膜肌远端腱病（膝内后侧）'],'medialBack',[[442,391,30,49]],'膝后偏内侧 · 远端肌腱区域','标记膝内后侧邻近区域；远端肌腱向胫骨后内侧附着，具体痛点需查体确认。',{deep:true});
+focusDiagram(['股内侧肌区域疼痛（股四头肌内侧部分）'],'thigh',[[508,502,35,63]],'右大腿前内侧末端 · 膝上肌肉区域','标记为膝上内侧的区域投影，用于对照位置；不是已确认的股内侧肌病灶，实际疼痛可涉及邻近组织。');
+focusDiagram(['大腿内收肌群拉伤 / 负荷相关疼痛'],'thigh',[[535,350,30,142]],'大腿内侧 · 内收肌群区域','标记为大腿内侧区域投影，肌群位于不同深度；图中不逐一分离内收肌，远端附着点需专业定位。');
 getAnatomy=function(item){
  const config=focusedAnatomy[item[0]];
  if(!config)return originalGetAnatomy(item);
