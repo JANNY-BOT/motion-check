@@ -1,0 +1,819 @@
+{
+  "updated": "2026-11-15",
+  "scope": "仅本次新增3个内踝条目完成资料核对；旧内容未全量复核；未经临床审核",
+  "total": 116,
+  "entries": [
+    {
+      "name": "肩袖相关疼痛",
+      "region": "shoulder",
+      "source": "https://www.nhs.uk/symptoms/shoulder-pain/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肩部扭伤 / 拉伤",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肱二头肌长头腱炎",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/biceps-tendinitis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肩锁关节损伤",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/shoulder-separation/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肩关节脱位",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/dislocated-shoulder/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肩关节盂唇损伤（SLAP）",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/slap-tears/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肩袖撕裂",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/rotator-cuff-tears/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "运动相关肩关节不稳",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/chronic-shoulder-instability/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "锁骨骨折",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/clavicle-fracture-broken-collarbone/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肩部肱二头肌腱撕裂",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/biceps-tendon-tear-at-the-shoulder/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "胸大肌腱撕裂",
+      "region": "shoulder",
+      "source": "https://www.orthoinfo.org/diseases--conditions/pectoralis-tendon-tear/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "锁骨远端骨溶解（举重肩）",
+      "region": "shoulder",
+      "source": "https://my.clevelandclinic.org/health/diseases/osteolysis",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "网球肘",
+      "region": "elbow",
+      "source": "https://www.nhs.uk/conditions/tennis-elbow/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "高尔夫球肘",
+      "region": "elbow",
+      "source": "https://sportsmedicine.mayoclinic.org/news/mayo-clinic-q-and-a-understanding-golfers-elbow/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "鹰嘴滑囊炎",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/elbow-olecranon-bursitis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肘管综合征",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/ulnar-nerve-entrapment-at-the-elbow/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肘尺侧副韧带损伤",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/ulnar-collateral-ligament-ucl-injury/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肘部肱二头肌腱撕裂",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/biceps-tendon-tear-at-the-elbow/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肱三头肌腱撕裂",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/triceps-tendon-tear-at-the-elbow/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "投掷相关肘后撞击",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/elbow-injuries-in-the-throwing-athlete/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "桡骨头骨折",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/radial-head-fractures-of-the-elbow/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "肘关节脱位",
+      "region": "elbow",
+      "source": "https://www.orthoinfo.org/diseases--conditions/elbow-dislocation/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "桡管综合征",
+      "region": "elbow",
+      "source": "https://my.clevelandclinic.org/health/diseases/15658-radial-tunnel-syndrome",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "腕部扭伤",
+      "region": "wrist",
+      "source": "https://www.nhs.uk/conditions/sprains-and-strains/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "桡骨茎突腱鞘炎",
+      "region": "wrist",
+      "source": "https://www.orthoinfo.org/diseases--conditions/de-quervains-tendinosis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腕管综合征",
+      "region": "wrist",
+      "source": "https://www.orthoinfo.org/diseases--conditions/carpal-tunnel-syndrome/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "舟骨骨折",
+      "region": "wrist",
+      "source": "https://www.orthoinfo.org/diseases--conditions/scaphoid-fracture-of-the-wrist/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "三角纤维软骨复合体损伤（TFCC）",
+      "region": "wrist",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3702762/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "舟月韧带损伤",
+      "region": "wrist",
+      "source": "https://assh.my.site.com/handcare/condition/scapholunate-torn-ligament",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "尺侧腕伸肌腱损伤",
+      "region": "wrist",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3702762/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "钩骨钩骨折",
+      "region": "wrist",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3702762/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "桡骨远端骨折",
+      "region": "wrist",
+      "source": "https://www.orthoinfo.org/diseases--conditions/distal-radius-fractures-broken-wrist/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腕部腱鞘囊肿",
+      "region": "wrist",
+      "source": "https://www.orthoinfo.org/diseases--conditions/ganglion-cyst-of-the-wrist-and-hand/",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "腰背肌拉伤",
+      "region": "back",
+      "source": "https://www.orthoinfo.org/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腰椎间盘突出相关神经症状",
+      "region": "back",
+      "source": "https://www.orthoinfo.org/diseases--conditions/herniated-disk-in-the-lower-back/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腰椎峡部应力损伤",
+      "region": "back",
+      "source": "https://www.orthoinfo.org/diseases--conditions/spondylolysis-and-spondylolisthesis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "运动相关骶髂关节疼痛",
+      "region": "back",
+      "source": "https://www.tims.nhs.uk/wp-content/uploads/2024/08/tims-sacroiliac-joint-pain.pdf",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "胸腰椎骨折",
+      "region": "back",
+      "source": "https://www.orthoinfo.org/diseases--conditions/fractures-of-the-thoracic-and-lumbar-spine/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腰背软组织挫伤",
+      "region": "back",
+      "source": "https://www.orthoinfo.org/diseases--conditions/muscle-contusion-bruise/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腰椎小关节相关疼痛",
+      "region": "back",
+      "source": "https://www.nbt.nhs.uk/our-services/a-z-services/imaging-x-ray/imaging-patient-information/facet-joint-injections",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "腹股沟肌肉拉伤",
+      "region": "hip",
+      "source": "https://www.orthoinfo.org/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髋外侧滑囊炎",
+      "region": "hip",
+      "source": "https://www.orthoinfo.org/diseases--conditions/hip-bursitis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髋屈肌拉伤",
+      "region": "hip",
+      "source": "https://www.orthoinfo.org/diseases--conditions/hip-strains/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "股骨髋臼撞击综合征",
+      "region": "hip",
+      "source": "https://www.orthoinfo.org/diseases--conditions/femoroacetabular-impingement/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "运动性腹股沟痛（运动疝）",
+      "region": "hip",
+      "source": "https://www.orthoinfo.org/diseases--conditions/sports-hernia-athletic-pubalgia/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髋关节盂唇损伤",
+      "region": "hip",
+      "source": "https://www.hss.edu/health-library/conditions-and-treatments/list/hip-labral-tear",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "疼痛性弹响髋",
+      "region": "hip",
+      "source": "https://www.orthoinfo.org/diseases--conditions/snapping-hip/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "骨盆附着点撕脱骨折",
+      "region": "hip",
+      "source": "https://www.orthoinfo.org/diseases--conditions/pelvic-fractures/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髋部应力性骨折",
+      "region": "hip",
+      "source": "https://news.hss.edu/fix-hip-pain-for-good/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "臀肌腱病（髋外侧疼痛）",
+      "region": "hip",
+      "source": "https://roh.nhs.uk/services-information/therapy/gluteal-tendinopathy",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "股四头肌拉伤",
+      "region": "thigh",
+      "source": "https://www.orthoinfo.org/diseases--conditions/muscle-strains-in-the-thigh/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腘绳肌拉伤",
+      "region": "thigh",
+      "source": "https://www.orthoinfo.org/diseases--conditions/muscle-strains-in-the-thigh/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "大腿肌肉挫伤",
+      "region": "thigh",
+      "source": "https://www.orthoinfo.org/diseases--conditions/muscle-contusion-bruise/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腘绳肌近端肌腱撕脱",
+      "region": "thigh",
+      "source": "https://www.orthoinfo.org/diseases--conditions/hamstring-muscle-injuries/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "大腿急性骨筋膜室综合征",
+      "region": "thigh",
+      "source": "https://www.orthoinfo.org/diseases--conditions/compartment-syndrome/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "股内侧肌区域疼痛（股四头肌内侧部分）",
+      "region": "thigh",
+      "source": "https://my.clevelandclinic.org/health/body/22816-quad-muscles",
+      "contentReviewed": "2026-11-12",
+      "rehabReviewed": "2026-11-12"
+    },
+    {
+      "name": "大腿内收肌群拉伤 / 负荷相关疼痛",
+      "region": "thigh",
+      "source": "https://www.ncbi.nlm.nih.gov/sites/books/NBK493166/",
+      "contentReviewed": "2026-11-12",
+      "rehabReviewed": "2026-11-12"
+    },
+    {
+      "name": "腘绳肌近端腱病",
+      "region": "thigh",
+      "source": "https://www.cht.nhs.uk/services/clinical-services/physiotherapy-outpatients/hip/proximal-hamstring-tendinopathy",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "髌股疼痛",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/patellofemoral-pain-syndrome/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髌腱相关疼痛",
+      "region": "knee",
+      "source": "https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "膝关节扭伤",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/sprains-strains-and-other-soft-tissue-injuries",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "半月板损伤",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/meniscus-tears/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "前交叉韧带损伤",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/anterior-cruciate-ligament-acl-injuries/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "膝侧副韧带损伤",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/collateral-ligament-injuries/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髂胫束综合征",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/iliotibial-band-it-band-syndrome/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髌前滑囊炎",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/prepatellar-kneecap-bursitis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "后交叉韧带损伤",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/posterior-cruciate-ligament-injuries/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "股四头肌腱撕裂",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/quadriceps-tendon-tear/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髌腱撕裂",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/patellar-tendon-tear/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "髌骨脱位 / 不稳",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/patellar-dislocation-and-instability-in-children-unstable-kneecap/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "鹅足滑囊炎",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/pes-anserine-knee-tendon-bursitis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "胫骨结节骨骺炎",
+      "region": "knee",
+      "source": "https://www.orthoinfo.org/diseases--conditions/osgood-schlatter-disease-knee-pain/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "大收肌远端肌腱 / 附着点损伤（少见）",
+      "region": "knee",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7954158/",
+      "contentReviewed": "2026-11-12",
+      "rehabReviewed": "2026-11-12"
+    },
+    {
+      "name": "半膜肌远端腱病（膝内后侧）",
+      "region": "knee",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3445062/",
+      "contentReviewed": "2026-11-12",
+      "rehabReviewed": "2026-11-12"
+    },
+    {
+      "name": "隐神经卡压相关疼痛",
+      "region": "knee",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3845465/",
+      "contentReviewed": "2026-11-12",
+      "rehabReviewed": "2026-11-12"
+    },
+    {
+      "name": "股四头肌腱病（髌骨上缘疼痛）",
+      "region": "knee",
+      "source": "https://sportsmedicine.mayoclinic.org/condition/kneecap-instability-patellar-tendinitis/page/0",
+      "contentReviewed": "2026-11-12",
+      "rehabReviewed": "2026-11-12"
+    },
+    {
+      "name": "髌下脂肪垫撞击（Hoffa 综合征）",
+      "region": "knee",
+      "source": "https://www.ncbi.nlm.nih.gov/books/NBK589637/",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "膝滑膜皱襞综合征",
+      "region": "knee",
+      "source": "https://my.clevelandclinic.org/health/diseases/21705-plica-syndrome",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "腘窝囊肿（Baker 囊肿）",
+      "region": "knee",
+      "source": "https://my.clevelandclinic.org/health/diseases/15183-bakers-cyst",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "胫骨内侧应力综合征",
+      "region": "calf",
+      "source": "https://www.orthoinfo.org/diseases--conditions/shin-splints",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "胫骨应力性骨折",
+      "region": "calf",
+      "source": "https://www.orthoinfo.org/diseases--conditions/shin-splints",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "慢性运动性骨筋膜室综合征",
+      "region": "calf",
+      "source": "https://www.orthoinfo.org/diseases--conditions/compartment-syndrome/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腓肠肌拉伤（网球腿）",
+      "region": "calf",
+      "source": "https://www.plymouthhospitals.nhs.uk/display-pil/pil-calf-muscle-tears-and-strains-6064/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "比目鱼肌拉伤",
+      "region": "calf",
+      "source": "https://www.plymouthhospitals.nhs.uk/display-pil/pil-calf-muscle-tears-and-strains-6064/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "小腿肌肉挫伤",
+      "region": "calf",
+      "source": "https://www.orthoinfo.org/diseases--conditions/muscle-contusion-bruise/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腓骨应力性骨折",
+      "region": "calf",
+      "source": "https://www.orthoinfo.org/diseases--conditions/stress-fractures-of-the-foot-and-ankle/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腓总神经受压 / 损伤",
+      "region": "calf",
+      "source": "https://medlineplus.gov/ency/article/000791.htm",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "踝关节扭伤",
+      "region": "ankle",
+      "source": "https://www.nhs.uk/conditions/sprains-and-strains/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "跟腱相关疼痛",
+      "region": "ankle",
+      "source": "https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "跟腱断裂",
+      "region": "ankle",
+      "source": "https://www.cuh.nhs.uk/patient-information/achilles-tendon-rupture/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "踝部应力性骨折",
+      "region": "ankle",
+      "source": "https://www.orthoinfo.org/diseases--conditions/stress-fractures-of-the-foot-and-ankle/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "踝周软组织挫伤",
+      "region": "ankle",
+      "source": "https://www.orthoinfo.org/diseases--conditions/muscle-contusion-bruise/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "高位踝扭伤（下胫腓联合损伤）",
+      "region": "ankle",
+      "source": "https://www.footcaremd.org/foot-and-ankle-conditions/ankle/high-ankle-sprain",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "腓骨肌腱病",
+      "region": "ankle",
+      "source": "https://www.footcaremd.org/foot-and-ankle-conditions/ankle/peroneal-tendinosis",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "距骨骨软骨损伤",
+      "region": "ankle",
+      "source": "https://www.footcaremd.org/foot-and-ankle-conditions/ankle/osteochondral-lesion",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "慢性踝关节不稳",
+      "region": "ankle",
+      "source": "https://www.orthoinfo.org/diseases--conditions/sprained-ankle/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "踝关节急性骨折",
+      "region": "ankle",
+      "source": "https://www.orthoinfo.org/diseases--conditions/ankle-fractures-broken-ankle/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "胫骨后肌腱病（内踝后方疼痛）",
+      "region": "ankle",
+      "source": "https://my.clevelandclinic.org/health/diseases/posterior-tibial-tendonitis-posterior-tibial-tendon-dysfunction",
+      "contentReviewed": "2026-11-15",
+      "rehabReviewed": "2026-11-15"
+    },
+    {
+      "name": "拇长屈肌腱病（内后踝 / 拇趾相关）",
+      "region": "ankle",
+      "source": "https://www.aafp.org/afp/2022/0500/p479",
+      "contentReviewed": "2026-11-15",
+      "rehabReviewed": "2026-11-15"
+    },
+    {
+      "name": "跗管综合征",
+      "region": "ankle",
+      "source": "https://medlineplus.gov/ency/article/000792.htm",
+      "contentReviewed": "2026-11-15",
+      "rehabReviewed": "2026-11-15"
+    },
+    {
+      "name": "跟后滑囊炎",
+      "region": "ankle",
+      "source": "https://my.clevelandclinic.org/health/diseases/21706-heel-bursitis",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "足底筋膜相关疼痛",
+      "region": "foot",
+      "source": "https://www.nhs.uk/live-well/exercise/knee-pain-and-other-running-injuries/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "跖骨应力性骨折",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/stress-fractures-of-the-foot-and-ankle/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "莫顿神经瘤",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/mortons-neuroma/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "拇趾跖趾关节扭伤",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/turf-toe/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "跖痛症（前脚掌疼痛）",
+      "region": "foot",
+      "source": "https://www.nhs.uk/symptoms/foot-pain/pain-in-the-ball-of-the-foot/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "中足 Lisfranc 损伤",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/lisfranc-midfoot-injury/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "籽骨炎",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/sesamoiditis/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "足舟骨应力性骨折",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/stress-fractures-of-the-foot-and-ankle/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "第五跖骨骨折",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/toe-and-forefoot-fractures/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "脚趾急性骨折",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/toe-and-forefoot-fractures/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "跟骨骨骺炎（Sever 病）",
+      "region": "foot",
+      "source": "https://www.orthoinfo.org/diseases--conditions/severs-disease/",
+      "contentReviewed": null,
+      "rehabReviewed": "2026-10-16"
+    },
+    {
+      "name": "足跟脂肪垫综合征（足底脂肪垫痛）",
+      "region": "foot",
+      "source": "https://my.clevelandclinic.org/health/diseases/23275-heel-fat-pad-syndrome",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "前脚掌脂肪垫萎缩相关疼痛",
+      "region": "foot",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7671290/",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "跖板损伤（第2至5趾）",
+      "region": "foot",
+      "source": "https://www.footcaremd.org/foot-and-ankle-conditions/toes/plantar-plate-tear",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-21"
+    },
+    {
+      "name": "跟骨应力性骨折",
+      "region": "foot",
+      "source": "https://my.clevelandclinic.org/health/diseases/23275-heel-fat-pad-syndrome",
+      "contentReviewed": "2026-10-21",
+      "rehabReviewed": "2026-10-16"
+    }
+  ]
+}

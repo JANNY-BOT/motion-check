@@ -51,4 +51,4 @@
 版权边界见 [COPYRIGHT.md](COPYRIGHT.md)，反馈流程见 [RIGHTS_REPORT.md](RIGHTS_REPORT.md)。
 
 
-新增原创定位图（dist/focused-anatomy.js）：JANNY-BOT / 动察，采用 CC BY-SA 4.0。覆盖 24 个条目，属于简化教学示意，结构参考链接随条目显示，尚未经过临床审核。
+新增原创定位图（dist/focused-anatomy.js）：JANNY-BOT / 动察，采用 CC BY-SA 4.0。覆盖 32 个条目，属于简化教学示意，结构参考链接随条目显示，尚未经过临床审核。
